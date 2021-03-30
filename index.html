@@ -10,15 +10,8 @@
 <body>
   <script>
     axios({
-      url: '',
-      methods: 'post',
-    }).then(res => {
-      console.log(res)
-    })
-
-    axios.get({
-      url: '',
-      methods: 'post',
+      url: './data.json',
+      methods: 'get',
     }).then(res => {
       console.log(res)
     })
